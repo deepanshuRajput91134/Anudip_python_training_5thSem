@@ -3,21 +3,36 @@
 
 numbers = []
 
-# Input 20 numbers
-print("Enter 20 numbers:")
+print("Enter any 20 numbers:")
+
 for i in range(20):
-    num = int(input(f"Enter number {i+1}: "))
+    num = int(input())
+    
+    # Append into list
     numbers.append(num)
 
-print("\nOriginal List:")
-print(numbers)
+print("----------------------------")
 
-# Ask user for number to remove
-remove_num = int(input("\nEnter a number to remove from list: "))
+element = int(input("Enter any number to remove its duplicate: "))
 
-# Remove all duplicates of that number
-while remove_num in numbers:
-    numbers.remove(remove_num)
+# Finding the frequency of given number
+frequency = numbers.count(element)
 
-print("\nUpdated List:")
-print(numbers)
+if frequency == 0:
+    print("Element not found")
+
+elif frequency == 1:
+    print("No duplicates found")
+
+else:
+    # Reversing the list
+    numbers.reverse()
+
+    for i in range(1, frequency):
+        numbers.remove(element)
+
+    # Reversing the list again
+    numbers.reverse()
+
+    print("After removing duplicates")
+    print(numbers)
