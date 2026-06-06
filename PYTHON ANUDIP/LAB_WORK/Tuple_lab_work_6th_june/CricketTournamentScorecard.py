@@ -1,4 +1,11 @@
 # Cricket Tournament Scorecard
+'''_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+•• Count half-centuries and centuries.
+• Find the highest score.
+• Display all scores below 20.
+• Calculate the average score.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _'''
+# Cricket Tournament Scorecard
 
 scores = [45, 78, 12, 100, 67, 8, 90, 55]
 
