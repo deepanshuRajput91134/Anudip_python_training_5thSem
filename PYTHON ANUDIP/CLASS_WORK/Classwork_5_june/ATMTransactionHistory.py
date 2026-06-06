@@ -13,7 +13,8 @@ largest_withdrawal = transactions[1]
 # Loop through transactions
 for amount in transactions:
 
-    # Calculate balance
+
+     # Calculate balance
     balance += amount
 
     # Check deposits
@@ -39,4 +40,4 @@ print("Current Balance:", balance)
 print("Deposits:", deposits)
 print("Withdrawals:", withdrawals)
 print("Largest Deposit:", largest_deposit)
-print("Largest Withdrawal:", largest_withdrawal)
+print("Largest Withdrawal:", largest_withdrawal) 
