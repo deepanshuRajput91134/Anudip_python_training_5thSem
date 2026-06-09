@@ -1,16 +1,16 @@
-#String-Based Attendance Tracker
-'''_ _ _ ___ _ __ _ __ _ ___ __ _ _ __
-Write a program to:
-1. Count Present and Absent days.
-2. Calculate attendance percentage.
-3. Find the longest consecutive streak of Presence.
-4. Find the longest consecutive streak of Absence.
-5. Determine whether attendance is below 75%.
-_ _ __ _ _ _ __ _ __ _ _ __ _ __ _ __ '''
+# #String-Based Attendance Tracker
+# '''_ _ _ ___ _ __ _ __ _ ___ __ _ _ __
+# Write a program to:
+# 1. Count Present and Absent days.
+# 2. Calculate attendance percentage.
+# 3. Find the longest consecutive streak of Presence.
+# 4. Find the longest consecutive streak of Absence.
+# 5. Determine whether attendance is below 75%.
+# _ _ __ _ _ _ __ _ __ _ _ __ _ __ _ __ '''
 # Attendance record
 attendance = "PPAPPPAAPPPPAPP"
 
-print("Attendance Record:")
+print("Attendance Record")
 print(attendance)
 
 # Count present and absent days
@@ -21,9 +21,9 @@ print("Present Days:", present)
 print("Absent Days:", absent)
 
 # Calculate attendance percentage
-percentage = (present / len(attendance)) * 100
+percentage = (present /len(attendance)) * 100
 
-print("Attendance Percentage:", percentage)
+print("Attendance Percentage", percentage)
 
 # Find longest present streak
 max_present = 0
