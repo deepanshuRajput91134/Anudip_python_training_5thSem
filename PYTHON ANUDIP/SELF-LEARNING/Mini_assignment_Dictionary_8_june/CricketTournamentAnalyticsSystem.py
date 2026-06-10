@@ -1,17 +1,21 @@
 #Cricket Tournament Analytics System
-'''_ _ _ _ __ _ _ ___ _. __ __ _ __
-1. Add a book.
-2. Remove a book.
-3. Search a book by ID.
-4. Search by title.
-5. Update available copies.
-6. Issue a book.
-7. Return a book.
-8. Display books with fewer than 3 copies.
-9. Display books that are unavailable.
-10. Find the most available book.
-11. Generate a restocking report.
-12. Create a separate dictionary of books requiring immediate purchase.
+'''_ _ _ _ __ _ _ ___ _. __ __ _ _
+1. Display all player statistics.
+2. Find highest run scorer.
+3. Find lowest run scorer.
+4. Calculate average runs.
+5. Find player with maximum wickets.
+6. Find all-rounders (runs > 300 and wickets > 5).
+7. Display players scoring above average.
+8. Create categories:
+o Star Performer
+o Good Performer
+o Average Performer
+o Poor Performer
+9. Generate team statistics.
+10. Display top 5 batsmen.
+11. Display top 5 bowlers.
+12. Create a separate dictionary for award winners.
 _.  __ __. _ _ _ __ _ _ _ __ _ _ _ _ __ _ _ _. _ __ _ _ _ '''
 # ==========================================
 # Cricket Tournament Analytics System
