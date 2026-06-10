@@ -1,21 +1,22 @@
 #Student Performance Analytics System
 '''_ _ ___ _ __ _ __________    __
-1. Display all student records.
-2. Search a student using Student ID.
-3. Add a new student.
-4. Update marks of an existing student.
-5. Delete a student.
-6. Find topper and lowest scorer.
-7. Calculate class average.
-8. Count pass and fail students.
-9. Generate grades:
-o A (90+)
-o B (75–89)
-o C (50–74)
-o F (<50)
-10. Display students scoring above average.
-11. Display top 5 performers.
-12. Create a separate dictionary for scholarship students (marks > 85).
+1. Display all city details.
+2. Find the most populated city.
+3. Find the least populated city.
+4. Calculate average population.
+5. Display cities with literacy rate above 90%.
+6. Display cities with literacy below average.
+7. Calculate population density.
+8. Find city with highest density.
+9. Categorize cities:
+o Small
+o Medium
+o Large
+10. Create a development-priority list.
+11. Generate separate dictionaries for:
+o High Literacy Cities
+o Low Literacy Cities
+12. Generate a national summary report.
 _ _ _ _ __ _ __ _ _ __ _ _ _. _ '''
 # ==========================================
 # Student Performance Analytics System
