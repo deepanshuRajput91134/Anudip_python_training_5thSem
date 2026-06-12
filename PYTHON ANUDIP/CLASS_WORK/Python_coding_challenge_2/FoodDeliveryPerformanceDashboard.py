@@ -1,5 +1,14 @@
 # Food Delivery Performance Dashboard
-
+''____ _ __ _ __ __ __ __  _
+Find the fastest delivery time.
+Find the slowest delivery time.
+Calculate the average delivery time.
+Display delayed orders (>45 minutes).
+5. Categorize deliveries:
+o Fast (≤30 minutes)
+o Normal (31–45 minutes)
+o Delayed (>45 minutes)
+ _ __ _ __ _ __ _ _ __ _ __ '''
 delivery_times = [28, 45, 60, 22, 35, 80, 40, 25, 55, 18]
 
 # 1. Find the fastest delivery time
